@@ -11,7 +11,7 @@ urlpatterns = [
     # Страница со списком всех тем
     path('topics/', views.topics, name='topics'),
     # Страница с подробной информацией по отдельной теме
-    path('toics/<int:topic_id>/', views.topic, name='topic'),
+    path('topics/<int:topic_id>/', views.topic, name='topic'),
     # Страница создания нового топика
     path('new_topic/', views.new_topic, name='new_topic'),
     # Страница создания нового комментария
